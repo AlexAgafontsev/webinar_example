@@ -5,3 +5,4 @@ services:
       - "${PORT:-3001}:3000"
     environment:
       - NODE_ENV=production
+      - ENV_EXAMPLE=${ENV_EXAMPLE:-Это пример сайта}
